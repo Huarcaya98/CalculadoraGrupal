@@ -22,6 +22,12 @@ namespace CalculadoraGrupal
         static double Sumar(double a, double b)
         {
             return a + b ;
+        } 
+
+         static double multiplicacion(double a, double b)
+        {
+            return a*b ;
+            
         }
 
         static double Restar(double a, double b)
