@@ -16,6 +16,15 @@ namespace CalculadoraGrupal
 
             Console.WriteLine("Resultados");
             Console.WriteLine("Suma: "+ Sumar(n1,n2));
+<<<<<<< Updated upstream
+=======
+            Console.WriteLine("Resta: " + Restar(n1, n2));
+            Console.WriteLine("Division: " + division(n1,n2)); 
+            Console.WriteLine("Multiplicar: "+ multiplicacion(n1,n2));        
+            Console.WriteLine("Modulo: "+ modulo(n1,n2));
+            //Console.WriteLine("Al cuadrado");//
+
+>>>>>>> Stashed changes
         }
 
         static double Sumar(double a, double b)
