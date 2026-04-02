@@ -17,6 +17,7 @@ namespace CalculadoraGrupal
             Console.WriteLine("Resultados");
             Console.WriteLine("Suma: "+ Sumar(n1,n2));
             Console.WriteLine("Resta: " + Restar(n1, n2));
+            Console.WriteLine("division: " + division(n1,n2)); 
         }
 
         static double Sumar(double a, double b)
@@ -34,6 +35,13 @@ namespace CalculadoraGrupal
     {
         return a - b;
     }
+ 
+    static double division( double a, double b)
+        {
+           return a/b; 
+        }
+
+
 
     }
 }
