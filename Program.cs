@@ -43,5 +43,18 @@ namespace CalculadoraGrupal
 
 
 
+
+
+
+
+
+
+
+
+
+        static double modulo(double a, double b)
+        {
+            return a % b;
+        }
     }
 }
