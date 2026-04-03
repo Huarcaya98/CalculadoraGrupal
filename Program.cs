@@ -20,7 +20,7 @@ namespace CalculadoraGrupal
             Console.WriteLine("Division: " + division(n1,n2)); 
             Console.WriteLine("Multiplicar: "+ multiplicacion(n1,n2));        
             Console.WriteLine("Modulo: "+ modulo(n1,n2));
-
+            Console.WriteLine("AlCuadrado: " + elevaralcuadrado(n1)); 
         }
 
         static double Sumar(double a, double b)
@@ -49,5 +49,10 @@ namespace CalculadoraGrupal
             {
                 return a % b;
             }
+        
+            static double elevaralcuadrado(double a)
+        {
+                return a*a;
         }
+}
 }
